@@ -19,3 +19,21 @@ while (num <= 10)
     num = num + 1
   }
 }
+
+
+# Code & Logic 2
+
+len <- 1000
+fibvals <- numeric(len)
+fibvals1 <- numeric(10)
+fibvals[1] <- 1
+fibvals[2] <- 1
+j=1
+
+for (i in 3:len) { 
+  fibvals[i] <- fibvals[i-1]+fibvals[i-2]
+  if (fibvals[i] > 1000 & j <= 10) {
+    fibvals1[j]=fibvals[i]
+    j=j+1
+  }
+} 
