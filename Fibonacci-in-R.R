@@ -37,3 +37,15 @@ for (i in 3:len) {
     j=j+1
   }
 } 
+
+
+# General Code to get Fibonacci Series in R
+
+len <- 10
+fibvals <- numeric(len)
+fibvals[1] <- 1
+fibvals[2] <- 1
+for (i in 3:len) { 
+   fibvals[i] <- fibvals[i-1]+fibvals[i-2]
+}
+fibvals
