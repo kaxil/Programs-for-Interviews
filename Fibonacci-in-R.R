@@ -1,3 +1,5 @@
+# Write a program to print first 10 numbers in Fibonacci Series after 1000.
+
 
 # Code & Logic 1
 
